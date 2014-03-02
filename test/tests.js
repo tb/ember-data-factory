@@ -34,7 +34,6 @@ function buildApp() {
   App.Author.FIXTURES = [];
 
   App.setupForTesting();
-  Em.run(App, App.advanceReadiness);
 }
 
 Ember.testing = true;
